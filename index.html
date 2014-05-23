@@ -2,17 +2,28 @@
 <html>
 	<head>
 		<title> My Website </title>
+		<link rel="stylesheet" href="stylesheets/base.css"> <!--this is a relative path which means its loading relative to where this is right now -->
+		<link rel="stylesheet" href="stylesheets/skeleton.css">
+		<link rel="stylesheet" href="stylesheets/layout.css">
 	</head>
 
 	<body>
-			<h1>My Website</h1>
+			<div class = "container">
+			 	<div class ="eight columns">
+			 	<h1>My Website</h1>
 			
-			<h2>Favorite Internet Things</h2>
+			 	<h2>Favorite Internet Things</h2>
 			
-			<h3><a href="http://collection.chloma.com/2014aw/">chloma: blue_screen_of_death</a></h3>
+			 	<h3><a href="http://collection.chloma.com/2014aw/">chloma: blue_screen_of_death</a></h3>
 			
 			<img src="http://collection.chloma.com/2014aw/img/og.png" alt="picture of dress">
 			
 			<p>While I find the designs of this collection by chloma appealing and interesting, what I really like is the website and specifically the transitions between images. </p>
+
+			</div> <!-- /class eight columns-->
+			<div class ="four columns">
+				<h2>Sidebar</h2>
+			</div>
+			</div>
 	</body>
 </html>
